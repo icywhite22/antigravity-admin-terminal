@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "admin": {
+      "command": "node",
+      "args": [
+        "C:/path/to/antigravity-admin-terminal/src/server.mjs"
+      ]
+    }
+  }
+}

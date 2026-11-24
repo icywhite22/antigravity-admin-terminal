@@ -1,0 +1,12 @@
+{
+  "name": "antigravity-admin-terminal",
+  "displayName": "Admin Terminal (gsudo)",
+  "description": "Execute Windows commands with Administrator privileges via gsudo and native UAC confirmation while keeping normal Antigravity sandboxing intact.",
+  "author": "icywhite22 & Gemini",
+  "version": "0.1.0",
+  "suggestedPrompts": [
+    "Check admin_terminal_status to see whether UAC elevation is ready",
+    "Run an elevated command via run_admin_command with UAC confirmation",
+    "Revoke active gsudo elevated credential cache with revoke_admin_cache"
+  ]
+}

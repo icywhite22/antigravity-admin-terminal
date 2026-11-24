@@ -1,0 +1,21 @@
+{
+  "name": "antigravity-admin-terminal",
+  "version": "0.1.0",
+  "description": "Antigravity plugin & zero-npm-dependency MCP server providing on-demand UAC-elevated Windows terminal execution via gsudo.",
+  "author": "icywhite22",
+  "contributors": [
+    "icywhite22",
+    "Gemini"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "start:http": "node src/server.mjs --http",
+    "install:plugin": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/install-plugin.ps1",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
